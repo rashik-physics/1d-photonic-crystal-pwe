@@ -1,0 +1,38 @@
+Python 3.12.14 NumPy 2.5.4 Matplotlib 3.11.2
+NumPy version: 2.5.4
+epsilon_1=2.2500, epsilon_2=1.0000
+Layer thicknesses: 250.0 nm and 250.0 nm
+p=-4: +0.0000000 -0.0000000j
+p=-3: -0.0000000 -0.0589463j
+p=-2: +0.0000000 -0.0000000j
+p=-1: -0.0000000 -0.1768388j
+p= 0: +0.7222222 +0.0000000j
+p= 1: -0.0000000 +0.1768388j
+p= 2: +0.0000000 +0.0000000j
+p= 3: -0.0000000 +0.0589463j
+p= 4: +0.0000000 +0.0000000j
+Mean, conjugate symmetry, and nonzero-index formula: PASS
+N=  256: max absolute coefficient error = 2.186e-03
+N= 1024: max absolute coefficient error = 5.428e-04
+N= 4096: max absolute coefficient error = 1.356e-04
+N=16384: max absolute coefficient error = 3.391e-05
+41 plane waves; 201 Bloch wavevectors
+First Brillouin zone: [-6.283e+06, 6.283e+06] rad/m
+Array shape (k points, bands): (201, 5)
+Hermiticity, positivity, and unit conversion: PASS
+Zero-frequency mode, k symmetry, and uniform-medium dispersion: PASS
+Band pair    lower       upper       width       relative width
+ 1-2       0.351097    0.449050    0.097954    24.48%
+ 2-3       0.773140    0.831277    0.058137    7.25%
+ 3-4       1.169410    1.232547    0.063137    5.26%
+ 4-5       1.555328    1.651195    0.095867    5.98%
+M=10, waves= 21: edges=0.3514978, 0.4499685; max change=nan
+M=20, waves= 41: edges=0.3510966, 0.4490505; max change=9.180e-04
+M=40, waves= 81: edges=0.3508911, 0.4485776; max change=4.728e-04
+M=80, waves=161: edges=0.3507871, 0.4483371; max change=2.406e-04
+101 -> 401 k points, M=80: edge change = 0.0
+M=20 plot vs M=80 refined first-gap edges: [0.00030948 0.0007134 ]
+Refined first gap: Omega = 0.3507871 to 0.4483371
+Frequency interval: 210.33 to 268.82 THz
+Vacuum wavelength interval: 1115.23 to 1425.37 nm
+All 10 code cells completed without assertion failures.
